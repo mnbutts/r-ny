@@ -94,9 +94,81 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 16px;
+    color: #959595;
+}
+nav {
+    float: right;
+    padding-top: 30px;
+    margin: 0;
+}
+header img {
+    margin: 0;
+}
+.page-header {
+    border-bottom: 1px solid #ccc;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #959595;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    padding-right: 130px;
+}
+nav li a { 
+    padding-right: 20px;
+    text-decoration: none;
+}
+nav li a:link {
+    color: #959595;
+}
+.page-section {
+    clear: both;
+}
+img {
+    max-width: 100;
+}
+.project_col-4 {
+    width: 70%;
+    float: left;
+}
+.project_col-2 {
+    width: 30%;
+    float: right;
+}
+.grid {
+    position: relative;
+}
+.grid img {
+    position: relative;
+    z-index: -100000;
+}
+.grid h2,
+.grid p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; /*-- needed to get rid of extra margin so that text would align--*/
+    text-align: center;
+    color: #000000;
+}
+footer {
+    border-top: 1px solid #ccc;
+}
 
 
 
