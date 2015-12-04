@@ -116,6 +116,7 @@ nav {
 }
 header img {
     margin: 0;
+    overflow: hidden;
 }
 .page-header {
     border-bottom: 1px solid #ccc;
